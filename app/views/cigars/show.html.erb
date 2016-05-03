@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @cigar.name %>
+</p>
+
+<p>
+  <strong>Manufacturer:</strong>
+  <%= @cigar.manufacturer %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @cigar.price %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @cigar.description %>
+</p>
+
+<%= link_to 'Edit', edit_cigar_path(@cigar) %> |
+<%= link_to 'Back', cigars_path %>
